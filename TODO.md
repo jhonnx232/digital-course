@@ -1,1 +1,7 @@
-[]dar merge no codigo 
+## Lista De Afazeres
+[] treinar matemática
+[] treinar javascript;
+[] treinar html;
+[] treinar css;
+[] integrar as linguagens htm, css e javascript;
+[] treinar programação de minecraft sem o education edidion, use o app "Bedrock_Wiki";
