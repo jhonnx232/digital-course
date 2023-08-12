@@ -1,14 +1,12 @@
-## primeiro git já online
-  ## estados de um git
+ ## REPOSITORIO DO JHONN
+  -aqui eu , jhonn . salvo os backups e versões de tudo que eu faço em programação
 
-  U - unmodified= não modificado , o estado original.
-  M - modified= arquivo já foi modificado pelo menos uma vez.
-  S- staged = área preparatória para por no commit
-  Untr- Untracked= novo arquivo adicionado 
-## agora o status dele é modificado 
+ ## front-end
+   ## HTML CSS E JAVASCRIPT
 
-## atualizado
+## primeira linguagem C++
 
-*comando git push
-*comando git pull
-*comando git fetch
+## Projetos individuais
+  ## MAPAS PERSONALIZADOS DE MINECRAFT BEDROCK
+  ## ADDONS / COMANDOS / SISTEMAS do jhonn 
+  ## PROJETOS FINALIZADOS
