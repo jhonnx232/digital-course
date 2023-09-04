@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS HTML</title>
+</head>
+
+<body>
+    <main>
+        <h1>formulário</h1>
+        <hr>
+        <br>
+
+        <form action="" method="">
+            <div>
+                <label for="nome">input de texto: </label>
+                <input type="text" id="nome"
+                    name="nome"><!--placeholder= pré texto , value = valor já definido (pode ser alterado) , name = identifica os campos do formulario para o javascript ele vai identificar o campo-->
+
+            </div>
+
+            <div>
+                <label for="senha"> senha </label>
+                <input type="password" name="senha" id="senha">
+            </div>
+
+            <div>
+                <label for="email"> email </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="data">Data de Nascimento</label>
+                <input type="date" name="data" id="data">
+
+            </div>
+            <div>
+                <label for="hora">horario</label>
+                <input type="time" name="hora" id="hora">
+
+            </div>
+            <div>
+                <label for="numero">numero</label>
+                <input type="number" name="numero" id="numero">
+
+            </div>
+            <div>
+                <label for="file">ARQUIVO</label>
+                <input type="file" name="file" id="file">
+
+            </div>
+            <div>
+                <label for="url">link</label>
+                <input type="url" name="url" id="url">
+
+            </div>
+            <div>
+                <label for="color">cor</label>
+                <input type="color" name="color" id="color">
+
+            </div>
+            <div>
+                <label for="range">range</label>
+                <input type="range" name="range" id="range"
+                    max="200"><!--voce pode definir o valor minimo e máximo com min e max-->
+
+            </div>
+            <div>
+                <label for="check">seleção multipla</label>
+                <input type="checkbox" name="check"
+                    id="check"><!--se vc colocar cheked em atributos ele começa marcado por padrão-->
+
+            </div>
+            <div>
+                <label for="radio">seleção unica</label>
+                <input type="radio" name="radio" id="radio">
+
+            </div>
+            <div>
+                <label for="reset">reset</label>
+                <input type="reset" name="reset" id="reset"
+                    value="limpar"><!--ele limpa as outras seleções , altera o nome com o atributo value-->
+
+            </div>
+            <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione uma das opções</option>
+                    <option value="receita">Receita</option>
+                    <option value="dispesa">Dispesa</option>
+                    <option value="transferencia">Transferência</option>
+
+                </select>
+            </div>
+            <div>
+                <input type="submit" name="submit" id="submit"
+                    value="enviar"><!--ele manda os resultados na url , ou manda para um action no form ou method(get) por padrão-->
+
+            </div>
+
+
+
+        </form>
+    </main>
+</body>
+
+</html>

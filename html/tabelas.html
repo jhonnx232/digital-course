@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+</head>
+
+<body>
+    <main>
+        <h1>tabelas no html</h1>
+
+        <section id="students">
+            <h2>tabela de alunos</h2>
+            <table border="5">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>email</th>
+                        <th>matrícula</th>
+                    </tr>
+                </thead><!--no thead utilize th ao invés de td(deixa negrito e destacado)-->
+                <tbody>
+                    <tr>
+                        <td>Carol danwers</td>
+                        <td>Carol.danwers@gmail.com</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Peter Parker</td>
+                        <td>peter.parker@gmail.com</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Tony Stark</td>
+                        <td>tony@gmail.com</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="finance">
+            <h2>tabela de controle financeiro</h2>
+            <table border="5">
+                <thead>
+                    <tr>
+                        <th>data</th>
+                        <th>tipo</th>
+                        <th>descrição</th>
+                        <th>valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">15/06/2022</td>
+                        <td colspan="2">dispesa</td>
+                        <td>R$35,00</td>
+                    </tr><!--em caso de rowspan apague um da outra linha para rendenizar corretamente , para mesclar colunas use colspan e tire uma-->
+                    <tr>
+                        <td>receita</td>
+                        <td>salário</td>
+                        <td>R$3768,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
