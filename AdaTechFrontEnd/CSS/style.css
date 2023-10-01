@@ -1,0 +1,59 @@
+/* CSS = Cascading Style Sheet*/
+
+.title{
+    font-size: 50px;
+    font-weight: 700;
+}
+section#principais-estilos{
+    background-color: black;
+    color: white;
+    padding: 50px;/*espaçamento interno(pode especificar para qual lado)*/
+    margin: 20px 40px;/*espaçamento externo (pode especificar para qual lado) neste caso em cima é 20px e em baixo 40px*/
+    border: 2px solid red;   
+    border-radius: 10px;
+}
+
+#principais-estilos .paragrafo{
+    font-size: 22px;
+    line-height: 1.2;
+    color: yellow;
+    font-family: monospace;
+
+
+}
+/* sempre aplique o display flex no pai dos elementos . no caso o container */
+#flex-box .container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    justify-content: space-between ;/*alinhamento horizontal*/
+    align-items: center;/*alinhamento vertical*/
+}
+
+#flex-box .container .box{
+    width: 200px;
+    height: 200px;
+    background-color: green;   
+}
+
+section#grid-layout{
+    margin-top: 5px;
+}
+
+#flex-box .container .box-2{
+    width: 200px;
+    height: 400px;
+    background-color: blue;   
+}
+
+#grid-layout .container-grid{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);/*flex row (fr)=largura flexivel , ele fica responsível e ajustavel por tamanho de tela*/
+    gap: 20px;
+}
+
+#grid-layout .container-grid .caixa{
+    height: 200px;
+    background-color: blueviolet;
+}
