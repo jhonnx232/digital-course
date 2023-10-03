@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/fundo.jpg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+header #navbar{
+    background: linear-gradient(
+        to bottom , rgba(16, 14, 14, 0.67) , rgba(28, 17, 17, 0.209) 
+    );
+    display: flex;
+    justify-content: space-between;
+}
+header #navbar .navbrand{
+    text-decoration: none;
+    font-size: 1,5rem;
+    font-weight: 700;
+    color: rgb(182, 180, 180);
+    padding-bottom: 10px;
+}
+header #navbar .navbrand:hover{
+    color: #ff0000;
+    font-size: 150%;
+    transition: 0.5s;
+}
+header #navbar .navlist{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+header #navbar .navlist .navitem a{
+    text-decoration: none;
+    color: rgb(182, 180, 180);
+    font-size: 20px;
+    font-weight: 500;
+}
+header #navbar .navlist .navitem a:hover{
+    color: #ff0000;
+    font-size: 200%;
+    transition: 0.5s;
+    align-self: center;
+    justify-content: center;
+}
+
+main #principal{
+    background: transparent;
+    padding: 0 2rem;
+    width: 300px;
+    height: 300px;
+    margin: 10rem auto;
+
+}
+main #principal .login{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 0;
+}
+.email{
+    outline: none;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    font-size: 1.3rem;
+}
+.senha{
+    outline: none;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    font-size: 1.3rem;
+}
+.name-label{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    justify-content: space-between;
+    transition: 10s;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: space-between;
+
+}
+.name-input:valid ~ label,
+.name-input:focus ~ label{
+  transform: translateY(-1.6rem);
+  font-size: 0.75em;
+} 
