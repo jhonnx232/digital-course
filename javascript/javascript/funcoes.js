@@ -43,7 +43,7 @@ const dobro = function (numero) {
   return numero * 2;
 };
 
-let numero = dobro(2);
+let ((numero)) = dobro(2);
 
 console.log(numero);
 

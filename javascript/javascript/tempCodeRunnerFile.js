@@ -1,8 +1,20 @@
+//como acessar chaves do objeto
+// console.log(pessoa)
+// console.log(pessoa["nome-da-pessoa"])
+// console.log(pessoa.idade)
+// //adicionando chaves ou modificando já existentes
+// pessoa.altura = 1.77
 
-let acumulador = 0
+// console.log(pessoa)
 
-acumulador = acumulador + 1
-acumulador +=1
-acumulador++
+// delete pessoa.altura
 
-console.log(acumulador)
+// console.log(pessoa)
+
+// console.clear()
+// //como percorrer
+
+
+// for (let chave in pessoa) {
+//     console.log(chave)
+// }

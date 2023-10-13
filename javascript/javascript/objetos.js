@@ -6,6 +6,14 @@
 let pessoa = {
     'nome-da-pessoa': "jhonn",
     idade: 26,
+    altura: 1.77,
+    ehProgramador: true,
+    array: [1 , 2 , 10  ,19],
+    funcao: function(){//se utiliza funcao anonima pois o nome é declarado ja na estrutura do objeto
+        console.log("bestaaaaaa") 
+    },
+    ARROW: () => {console.log('OLÁ')},
+    nome:"apenas jhon",
 }
 //como acessar chaves do objeto
 console.log(pessoa)
@@ -28,3 +36,24 @@ for (let chave in pessoa) {
     console.log(chave)
 }
 
+console.clear()
+
+pessoa.ARROW()
+pessoa.funcao()
+console.clear()
+
+const age=19
+const width = 1.80
+
+const objeto= {
+    age,
+    width,
+}
+
+//areas especificas do objeto
+
+
+const name= pessoa.nome;//variavel de nome diferente ao parametro
+//ou
+
+const { nome } = pessoa;//variavel de mesmo nome que parametro do objeto
